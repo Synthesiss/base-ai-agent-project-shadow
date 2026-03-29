@@ -4,8 +4,7 @@ def start():
     print("Base AI Agent Project Shadow active")
 
     # Version information
-    print("AI agent version 0.1")
-
+print("AI agent version 0.2")
     # Help instruction
     print("Type help to see commands")
 
