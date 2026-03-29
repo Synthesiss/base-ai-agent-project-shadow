@@ -1,6 +1,7 @@
 def start():
 
     print("Base AI Agent Project Shadow active")
+    print("Type help to see commands")
 
     while True:
 
@@ -9,6 +10,10 @@ def start():
         if user=="exit":
             break
 
-        print("Agent: I am still learning")
+        elif user=="help":
+            print("Available commands: help, exit")
+
+        else:
+            print("Unknown command")
 
 start()
