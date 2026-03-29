@@ -17,6 +17,6 @@ print("help - show commands")
 print("exit - close agent")
 
         else:
-            print("Unknown command")
+            print("Unknown command. Type help.")
 
 start()
