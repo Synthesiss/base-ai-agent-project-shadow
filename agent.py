@@ -1,10 +1,14 @@
-print("Base AI Agent Project Shadow running")
+def start():
 
-while True:
+    print("Base AI Agent Project Shadow active")
 
-    user=input("You: ")
+    while True:
 
-    if user=="exit":
-        break
+        user=input("You: ")
 
-    print("Agent: learning mode activated")
+        if user=="exit":
+            break
+
+        print("Agent: I am still learning")
+
+start()
