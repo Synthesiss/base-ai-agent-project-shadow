@@ -35,3 +35,5 @@ Documenting my journey building a simple AI agent. Focused on Python, AI agents,
 Python  
 GitHub  
 AI agent development (planned)
+Day 2:
+Agent command system added.
