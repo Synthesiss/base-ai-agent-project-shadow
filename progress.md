@@ -9,3 +9,10 @@ Completed:
 
 Target:
 create first working base ai agent.
+## Day 2
+
+Added:
+
+- Command system
+- Help command
+- Code improvements
