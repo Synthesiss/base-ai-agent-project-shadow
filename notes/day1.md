@@ -1,14 +1,9 @@
-# Day 1 Notes
+# Day 1–2 Notes
 
-Started Base AI Agent Project Shadow.
+## Day 2
 
-Today's learning:
+Learned:
 
-- GitHub repository setup
-- Commit workflow
-- Python file structure
-- AI agent basics
-
-Next step:
-
-Add commands system.
+- Python condition logic
+- Command handling
+- Code structure improvement
