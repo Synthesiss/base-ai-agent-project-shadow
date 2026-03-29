@@ -11,7 +11,9 @@ def start():
             break
 
         elif user=="help":
-            print("Available commands: help, exit")
+            print("Available commands:")
+print("help - show commands")
+print("exit - close agent")
 
         else:
             print("Unknown command")
