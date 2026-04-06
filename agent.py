@@ -30,3 +30,7 @@ print("AI agent version 0.2")
 
 # Start agent
 start() 
+help
+exit
+problem
+show problems
