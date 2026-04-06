@@ -18,12 +18,30 @@ print("AI agent version 0.2")
         if user=="exit":
             break
 
+    
         # Help command
-        elif user=="help":
-            print("Available commands:")
-            print("help - show commands")
-            print("exit - close agent")
+elif user=="help":
+    print("Available commands:")
+    print("help - show commands")
+    print("exit - close agent")
+    print("problem - describe your problem")
 
+# Problem command
+elif user.startswith("problem"):
+
+    print("Problem received. Analyzing...")
+
+    problem_text = user.replace("problem","")
+
+    print("Possible solutions:")
+
+    print("Break problem into smaller steps")
+    print("Research possible approaches")
+    print("Take consistent action")
+
+# Unknown command handler
+else:
+    print("Unknown command. Type help.")
         # Unknown command handler
         else:
             print("Unknown command. Type help.")
