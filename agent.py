@@ -49,6 +49,9 @@ print("Take consistent action")
 print("Track progress daily")
 
 print("Stay consistent")
+with open("memory.txt","a") as file:
+
+    file.write(problem_text+"\n")
 
 # Unknown command handler
 else:
