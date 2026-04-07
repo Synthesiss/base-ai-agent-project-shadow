@@ -52,6 +52,7 @@ print("Stay consistent")
 with open("memory.txt","a") as file:
 
     file.write(problem_text+"\n")
+    print("Problem saved to memory")
 
 # Unknown command handler
 else:
