@@ -29,7 +29,15 @@ elif user=="help":
 # Problem command
 elif user.startswith("problem"):
 
-    print("Problem received. Analyzing...")
+    problem_text = user.replace("problem","")
+
+print("Possible solutions:")
+
+print("Break problem into smaller steps")
+
+print("Research possible approaches")
+
+print("Take consistent action")
 
     problem_text = user.replace("problem","")
 
