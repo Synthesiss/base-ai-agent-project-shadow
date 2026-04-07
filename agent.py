@@ -46,6 +46,9 @@ print("Take consistent action")
     print("Break problem into smaller steps")
     print("Research possible approaches")
     print("Take consistent action")
+print("Track progress daily")
+
+print("Stay consistent")
 
 # Unknown command handler
 else:
