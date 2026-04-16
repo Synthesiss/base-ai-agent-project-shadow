@@ -37,7 +37,6 @@ elif user=="show problems":
 
 # NFT idea
 elif user.startswith("nft idea"):
-elif user.startswith("nft idea"):
 
     theme = user.replace("nft idea","").strip()
 
