@@ -77,6 +77,13 @@ elif user.startswith("nft traits"):
     print("- Background: city / temple / void")
 print("- Weapon: sword / staff / none")
 print("- Aura: fire / shadow / lightning")
+elif user.startswith("nft tweet"):
+
+    print("Generating NFT tweet...")
+
+    print("The shadows are rising.")
+    print("A new NFT collection is coming.")
+    print("#NFT #Base #Web3")
         else:
             print("Unknown command. Type help.")
 
