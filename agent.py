@@ -58,6 +58,13 @@ with open("memory.txt","a") as file:
 else:
     print("Unknown command. Type help.")
         # Unknown command handler
+   elif user.startswith("nft idea"):
+
+    print("Generating NFT project idea...")
+
+    print("Collection Name: Shadow Reapers")
+    print("Concept: Dark warriors emerging from the shadow realm")
+    print("Theme: Mystery, power, and darkness") 
         else:
             print("Unknown command. Type help.")
 
