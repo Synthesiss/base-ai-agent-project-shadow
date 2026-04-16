@@ -60,11 +60,13 @@ else:
         # Unknown command handler
    elif user.startswith("nft idea"):
 
-    print("Generating NFT project idea...")
+    theme = user.replace("nft idea","")
 
-    print("Collection Name: Shadow Reapers")
-    print("Concept: Dark warriors emerging from the shadow realm")
-    print("Theme: Mystery, power, and darkness") 
+    print("Generating NFT idea based on theme:", theme)
+
+    print("Collection Name: Shadow "+theme.strip().title())
+    print("Concept: A unique NFT collection inspired by", theme)
+    print("Theme:", theme)
         else:
             print("Unknown command. Type help.")
 
