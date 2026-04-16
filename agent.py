@@ -81,8 +81,9 @@ elif user.startswith("nft tweet"):
 
     print("Generating NFT tweet...")
 
-    print("The shadows are rising.")
-    print("A new NFT collection is coming.")
+    print("The shadows are rising...")
+    print("Something powerful is coming to Base.")
+    print("Stay ready.")
     print("#NFT #Base #Web3")
         else:
             print("Unknown command. Type help.")
