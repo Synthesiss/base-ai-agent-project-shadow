@@ -66,7 +66,15 @@ else:
 
     print("Collection Name: Shadow "+theme.strip().title())
     print("Concept: A unique NFT collection inspired by", theme)
-    print("Theme:", theme)
+    print("Theme:", theme) 
+elif user.startswith("nft traits"):
+
+    print("Generating NFT traits...")
+
+    print("Traits:")
+    print("- Eyes: glowing / cyber / blindfold")
+    print("- Outfit: hoodie / armor / robe")
+    print("- Background: city / temple / void")
         else:
             print("Unknown command. Type help.")
 
