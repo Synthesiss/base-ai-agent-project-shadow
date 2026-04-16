@@ -47,16 +47,15 @@ elif user.startswith("nft idea"):
     print("Collection Name: Shadow "+theme.title())
     print("Concept: A unique NFT collection inspired by", theme)
 # NFT traits
-elif user.startswith("nft idea"):
+elif user.startswith("nft traits"):
 
-    theme = user.replace("nft idea","").strip()
+    print("Generating NFT traits...")
 
-    if theme == "":
-        theme = "Genesis"
-
-    print("Generating NFT idea...")
-    print("Collection Name: Shadow "+theme.title())
-    print("Concept: A unique NFT collection inspired by", theme)
+    print("Eyes: glowing / cyber / blindfold")
+    print("Outfit: hoodie / armor / robe")
+    print("Background: city / temple / void")
+    print("Weapon: sword / staff / none")
+    print("Aura: fire / shadow / lightning")
 # NFT tweet
 elif user.startswith("nft tweet"):
 
