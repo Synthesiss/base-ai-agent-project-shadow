@@ -35,6 +35,7 @@ elif user=="show problems":
         print("Saved problems:")
         print(file.read())
 
+
 # NFT idea
 # NFT idea
 elif user.startswith("nft idea"):
