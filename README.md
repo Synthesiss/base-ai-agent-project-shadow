@@ -37,3 +37,8 @@ GitHub
 AI agent development (planned)
 Day 2:
 Agent command system added.
+## NFT Features
+
+- Generate NFT project ideas
+- Generate NFT traits
+- Generate NFT tweets
