@@ -5,7 +5,9 @@ elif user=="help":
     print("exit - close agent")
     print("problem - describe your problem")
     print("show problems - view saved problems")
-
+print("nft idea - generate NFT project idea")
+print("nft traits - generate NFT traits")
+print("nft tweet - generate NFT tweet")
 # Problem command
 elif user.startswith("problem"):
 
