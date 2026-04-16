@@ -75,6 +75,8 @@ elif user.startswith("nft traits"):
     print("- Eyes: glowing / cyber / blindfold")
     print("- Outfit: hoodie / armor / robe")
     print("- Background: city / temple / void")
+print("- Weapon: sword / staff / none")
+print("- Aura: fire / shadow / lightning")
         else:
             print("Unknown command. Type help.")
 
