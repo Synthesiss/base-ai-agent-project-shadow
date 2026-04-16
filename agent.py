@@ -36,6 +36,7 @@ elif user=="show problems":
         print(file.read())
 
 # NFT idea
+# NFT idea
 elif user.startswith("nft idea"):
 
     theme = user.replace("nft idea","").strip()
