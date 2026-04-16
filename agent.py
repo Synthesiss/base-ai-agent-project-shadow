@@ -40,12 +40,12 @@ elif user.startswith("nft idea"):
 
     theme = user.replace("nft idea","").strip()
 
-if theme == "":
-    theme = "Genesis"
-    print("Generating NFT idea...")
-    print("Collection Name: Shadow "+theme.strip().title())
-    print("Concept: A unique NFT collection inspired by", theme)
+    if theme == "":
+        theme = "Genesis"
 
+    print("Generating NFT idea...")
+    print("Collection Name: Shadow "+theme.title())
+    print("Concept: A unique NFT collection inspired by", theme)
 # NFT traits
 elif user.startswith("nft idea"):
 
