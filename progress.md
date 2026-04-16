@@ -16,3 +16,10 @@ Added:
 - Command system
 - Help command
 - Code improvements
+## Day 4
+
+Added:
+
+- NFT idea generator
+- NFT traits generator
+- NFT tweet generator
