@@ -81,6 +81,12 @@ elif user.startswith("nft metadata"):
     print('{"trait_type": "Eyes", "value": "Glowing"}')
     print(']')
     print('}')
+# Show NFT ideas
+elif user=="show nft ideas":
+
+    with open("nft_memory.txt","r") as file:
+        print("Saved NFT ideas:")
+        print(file.read())
 # Unknown command
 else:
     print("Unknown command. Type help.")
