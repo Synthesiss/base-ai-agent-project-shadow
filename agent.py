@@ -61,13 +61,10 @@ elif user.startswith("nft traits"):
     print("Weapon: sword / staff / none")
     print("Aura: fire / shadow / lightning")
 # NFT tweet
-elif user.startswith("nft tweet"):
-
-    print("Generating NFT tweet...")
-
-    print("The shadows are rising...")
-    print("Something powerful is coming to Base.")
-    print("#NFT #Base #Web3")
+print("The shadows are rising...")
+print("Shadow Genesis is coming to Base.")
+print("Mint soon. Stay ready.")
+print("#NFT #Base #Web3")
 
 # NFT metadata
 elif user.startswith("nft metadata"):
