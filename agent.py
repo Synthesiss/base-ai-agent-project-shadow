@@ -66,6 +66,19 @@ elif user.startswith("nft tweet"):
     print("Something powerful is coming to Base.")
     print("#NFT #Base #Web3")
 
+# NFT metadata
+elif user.startswith("nft metadata"):
+
+    print("Generating NFT metadata...")
+
+    print('{')
+    print('"name": "Shadow Genesis #1",')
+    print('"description": "A unique NFT from the Shadow Genesis collection",')
+    print('"image": "ipfs://image-link",')
+    print('"attributes": [')
+    print('{"trait_type": "Eyes", "value": "Glowing"}')
+    print(']')
+    print('}')
 # Unknown command
 else:
     print("Unknown command. Type help.")
