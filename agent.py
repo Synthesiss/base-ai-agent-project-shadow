@@ -25,6 +25,7 @@ elif user.startswith("problem"):
 
     with open("memory.txt","a") as file:
         file.write(problem_text+"\n")
+        print("NFT idea saved")
 
     print("Problem saved to memory")
 
