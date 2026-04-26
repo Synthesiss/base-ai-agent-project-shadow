@@ -47,7 +47,8 @@ elif user.startswith("nft idea"):
     print("Generating NFT idea...")
     print("Collection Name: Shadow "+theme.title())
     print("Concept: A unique NFT collection inspired by", theme)
-# NFT traits
+with open("nft_memory.txt","a") as file:
+    file.write("Shadow "+theme.title()+"\n")# NFT traits
 elif user.startswith("nft traits"):
 
     print("Generating NFT traits...")
