@@ -23,3 +23,11 @@ Added:
 - NFT idea generator
 - NFT traits generator
 - NFT tweet generator
+## Day 5
+
+Added:
+
+- NFT metadata generator
+- NFT idea storage
+- NFT memory recall
+- Better NFT tweets
