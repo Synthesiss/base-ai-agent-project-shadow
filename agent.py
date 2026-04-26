@@ -8,7 +8,7 @@ elif user=="help":
     print("nft idea - generate NFT idea")
     print("nft traits - generate NFT traits")
     print("nft tweet - generate NFT tweet")
-
+    print("nft metadata - generate NFT metadata")
 # Problem command
 elif user.startswith("problem"):
 
