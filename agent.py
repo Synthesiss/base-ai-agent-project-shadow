@@ -1,4 +1,6 @@
 import random
+
+
 def start():
 
     # Start the AI agent
@@ -22,6 +24,7 @@ def start():
 
         # Help command
         elif user == "help":
+
             print("Available commands:")
             print("help - show commands")
             print("exit - close agent")
@@ -68,43 +71,39 @@ def start():
                 theme = "Genesis"
 
             print("Generating NFT idea...")
-names = ["Shadow", "Cyber", "Void", "Phantom"]
 
-collection = random.choice(names)
+            names = ["Shadow", "Cyber", "Void", "Phantom"]
 
-print("Collection Name:", collection, theme.title())           
-concepts = [
-    "A dark futuristic NFT collection",
-    "A mysterious Web3 warrior universe",
-    "A cyberpunk inspired NFT project",
-    "A legendary digital empire"
-]
+            collection = random.choice(names)
 
-concept = random.choice(concepts)
-print("Concept:", concept)
+            print("Collection Name:", collection, theme.title())
+
+            concepts = [
+                "A dark futuristic NFT collection",
+                "A mysterious Web3 warrior universe",
+                "A cyberpunk inspired NFT project",
+                "A legendary digital empire"
+            ]
+
+            concept = random.choice(concepts)
+
+            print("Concept:", concept)
 
             with open("nft_memory.txt", "a") as file:
-                file.write("Shadow " + theme.title() + "\n")
+                file.write(collection + " " + theme.title() + "\n")
 
             print("NFT idea saved")
 
         # NFT traits
-        elif eyes = ["glowing", "cyber", "blindfold"]
-outfits = ["hoodie", "armor", "robe"]
-backgrounds = ["city", "temple", "void"]
-auras = ["fire", "shadow", "lightning"]
+        elif user.startswith("nft traits"):
 
-print("Eyes:", random.choice(eyes))
-print("Outfit:", random.choice(outfits))
-print("Background:", random.choice(backgrounds))
-print("Aura:", random.choice(auras))
-rarities = ["Common", "Rare", "Epic", "Legendary"]
+            print("Generating NFT traits...")
 
-print("Rarity:", random.choice(rarities))
-
-        # NFT tweet
-elif tweets = [
-    "The shadows are rising...",
+            eyes = ["glowing", "cyber", "blindfold"]
+            outfits = ["hoodie", "armor", "robe"]
+            backgrounds = ["city", "temple", "void"]
+            auras = ["fire", "shadow", "lightning"]
+            rarities = ["Common", "Rare", "Epic", "    "The shadows are rising...",
     "A new legend is coming to Base.",
     "Web3 will never be the same.",
     "The next NFT era begins now."
