@@ -68,8 +68,11 @@ def start():
                 theme = "Genesis"
 
             print("Generating NFT idea...")
-            print("Collection Name: Shadow " + theme.title())
-            print("Concept: A unique NFT collection inspired by", theme)
+names = ["Shadow", "Cyber", "Void", "Phantom"]
+
+collection = random.choice(names)
+
+print("Collection Name:", collection, theme.title())            print("Concept: A unique NFT collection inspired by", theme)
 
             with open("nft_memory.txt", "a") as file:
                 file.write("Shadow " + theme.title() + "\n")
