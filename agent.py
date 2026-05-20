@@ -115,15 +115,15 @@ print("#NFT #Base #Web3")
         # NFT metadata
         elif user.startswith("nft metadata"):
 
-            print("Generating NFT metadata...")
             print('{')
-            print('"name": "Shadow Genesis #1",')
-            print('"description": "A unique NFT from the Shadow Genesis collection",')
-            print('"image": "ipfs://image-link",')
-            print('"attributes": [')
-            print('{"trait_type": "Eyes", "value": "Glowing"}')
-            print(']')
-            print('}')
+print('"name": "Shadow Genesis #1",')
+print('"description": "AI generated NFT from Base AI Agent",')
+print('"image": "ipfs://image-link",')
+print('"attributes": [')
+print('{"trait_type": "Eyes", "value": "Cyber"},')
+print('{"trait_type": "Aura", "value": "Shadow"}')
+print(']')
+print('}')
 
         # Show NFT ideas
         elif user == "show nft ideas":
