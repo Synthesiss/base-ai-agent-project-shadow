@@ -1,3 +1,4 @@
+import random
 def start():
 
     # Start the AI agent
