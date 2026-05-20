@@ -72,7 +72,16 @@ names = ["Shadow", "Cyber", "Void", "Phantom"]
 
 collection = random.choice(names)
 
-print("Collection Name:", collection, theme.title())            print("Concept: A unique NFT collection inspired by", theme)
+print("Collection Name:", collection, theme.title())           
+concepts = [
+    "A dark futuristic NFT collection",
+    "A mysterious Web3 warrior universe",
+    "A cyberpunk inspired NFT project",
+    "A legendary digital empire"
+]
+
+concept = random.choice(concepts)
+print("Concept:", concept)
 
             with open("nft_memory.txt", "a") as file:
                 file.write("Shadow " + theme.title() + "\n")
