@@ -98,6 +98,9 @@ print("Eyes:", random.choice(eyes))
 print("Outfit:", random.choice(outfits))
 print("Background:", random.choice(backgrounds))
 print("Aura:", random.choice(auras))
+rarities = ["Common", "Rare", "Epic", "Legendary"]
+
+print("Rarity:", random.choice(rarities))
 
         # NFT tweet
 elif tweets = [
