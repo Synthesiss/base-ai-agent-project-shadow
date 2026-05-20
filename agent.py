@@ -89,14 +89,15 @@ print("Concept:", concept)
             print("NFT idea saved")
 
         # NFT traits
-        elif user.startswith("nft traits"):
+        elif eyes = ["glowing", "cyber", "blindfold"]
+outfits = ["hoodie", "armor", "robe"]
+backgrounds = ["city", "temple", "void"]
+auras = ["fire", "shadow", "lightning"]
 
-            print("Generating NFT traits...")
-            print("Eyes: glowing / cyber / blindfold")
-            print("Outfit: hoodie / armor / robe")
-            print("Background: city / temple / void")
-            print("Weapon: sword / staff / none")
-            print("Aura: fire / shadow / lightning")
+print("Eyes:", random.choice(eyes))
+print("Outfit:", random.choice(outfits))
+print("Background:", random.choice(backgrounds))
+print("Aura:", random.choice(auras))
 
         # NFT tweet
 elif tweets = [
