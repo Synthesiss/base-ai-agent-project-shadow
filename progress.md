@@ -31,3 +31,11 @@ Added:
 - NFT idea storage
 - NFT memory recall
 - Better NFT tweets
+- ## Day 6
+
+Added:
+
+- Random NFT generation
+- Dynamic NFT tweets
+- Rarity system
+- Smarter metadata
