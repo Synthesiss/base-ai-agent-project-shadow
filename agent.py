@@ -99,12 +99,17 @@ print("Concept:", concept)
             print("Aura: fire / shadow / lightning")
 
         # NFT tweet
-        elif user.startswith("nft tweet"):
+elif tweets = [
+    "The shadows are rising...",
+    "A new legend is coming to Base.",
+    "Web3 will never be the same.",
+    "The next NFT era begins now."
+]
 
-            print("The shadows are rising...")
-            print("Shadow Genesis is coming to Base.")
-            print("Mint soon. Stay ready.")
-            print("#NFT #Base #Web3")
+tweet = random.choice(tweets)
+
+print(tweet)
+print("#NFT #Base #Web3")
 
         # NFT metadata
         elif user.startswith("nft metadata"):
