@@ -42,3 +42,10 @@ Agent command system added.
 - Generate NFT project ideas
 - Generate NFT traits
 - Generate NFT tweets
+## Smart NFT Engine
+
+Features:
+- Random NFT traits
+- Dynamic tweet generation
+- NFT rarity system
+- Metadata generation
